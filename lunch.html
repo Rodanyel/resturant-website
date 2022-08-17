@@ -1,0 +1,57 @@
+<html>
+    <style>
+        body{
+            background-image: url(background4.jpg);
+            background-size: cover;
+        }
+     #desc1{
+        position: absolute;
+        left:310px;
+     }
+     #button1{
+        position: absolute;
+        bottom: 545px;
+        left:310px;
+     }
+     #desc2{
+        position: absolute;
+        left:310px;
+        bottom: 450px;
+     }
+     
+     #desc3{
+        position: absolute;
+        left:310px;
+        bottom: 250px; 
+     }
+    </style>
+    <body>
+     <div>
+        <input id="pancake" onclick="pancake()" type="image" src="steak.jpg" name="submit" width="300px" height="200px" alt="submit"/>
+        <b id="desc1">Steak meat is also often minced, shredded, chopped finely or formed to create a range of dishes that retain the name "steak": Chicken fried steak – a breaded cutlet dish consisting of a piece of steak (tenderized cube steak) coated with seasoned... Hamburg steak or steak burger – a beefsteak. calories:5,000</b>
+        <button id="button1" onclick="button1()">order here!</button>
+     </div>
+     <input id="oatmel" onclick="oatmel()" type="image" src="pork.jpg" name="submit" width="300px" height="200px" alt="submit"/>
+     <b id="desc2">Pork is the meat of the domestic pig (Sus domesticus). It’s the most commonly consumed red meat worldwide, especially in eastern Asia, but its consumption is forbidden in certain religions, such as Islam and Judaism. For this reason, pork is illegal in many Islamic countries. calories:10,000</b>
+     <button id="button2" onclick="button2()">order here!</button>
+     <div>
+     <div>
+        <input id="waffle" onclick="waffle()" type="image" src="muttom.jpg" name="submit" width="300px" height="200px" alt="submit"/>
+        <b id="desc3">What Is Mutton? In essence, mutton is a mature sheep, meaning it's between the ages of 1 and 3. The animal gets butchered the same way a cow or lamb is, so mutton chops, steaks, bacon, belly, and other sections are available. The meat tends to have more of a gamey flavor than lamb, but most of the time it's not much stronger. calories:15,000</b>
+        <button id="button3" onclick="button3()">order here!</button>
+     </div>
+
+     </div>
+    </body>
+    <script>
+function button1(){
+    location.replace("checkout.html")
+}
+function button2(){
+    location.replace("checkout.html")
+}
+function button3(){
+    location.replace("checkout.html")
+}
+    </script>
+</html>
